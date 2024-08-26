@@ -62,11 +62,11 @@
 
 
 .what{
-    /* height: 300px; */
-    /* width: 300px; */
+    height: 300px;
+    width: 300px;
     display: flex;
     justify-content: center;
-    /* background: rgb(57, 39, 52); */
+    background: rgb(57, 39, 52);
     flex-direction: column; 
     padding: 1rem;
     
