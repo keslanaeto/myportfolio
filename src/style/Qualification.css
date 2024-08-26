@@ -118,7 +118,8 @@ h2{
    }
 
    h2{
-      padding-right: 0.5rem;
+      /* padding-right: 0.5rem; */
+      padding-right: 1rem;
       font-size: 50px;
    }
 
