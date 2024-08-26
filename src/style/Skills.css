@@ -132,7 +132,7 @@
     padding-top: 1rem;
 }
 
-@media (max-width: 830px){
+@media (max-width: 640px){
     .skills h1{
        padding-left: 3rem;
     }

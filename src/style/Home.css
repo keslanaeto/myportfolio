@@ -150,7 +150,7 @@ span{
     color: rgb(133, 128, 137);
  }
 
- @media (max-width: 830px){
+ @media (max-width: 640px){
     .first-sec{
         display: flex;
         flex-direction: column;
