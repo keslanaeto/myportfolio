@@ -1,0 +1,166 @@
+
+.skills{
+    padding: 5rem 5rem;
+}
+
+
+.skills h1{
+    margin-top: 3rem;
+    color: rgb(242, 240, 240);
+    font-size: 50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 26rem;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.7px;
+    
+
+
+}
+
+.tech{
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+    padding-bottom: 3rem;
+    padding-left: 4rem;
+    font-family: "Gupter", serif;
+    letter-spacing: 1.75px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(204, 191, 216);
+   
+}
+
+
+.lang p{
+    color: rgb(255, 254, 254);
+    font-size: 23px;
+    text-align: center;
+
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.skill h2{
+    margin-top: 3rem;
+    color: rgb(249, 247, 247);
+    font-size: 48px;
+    padding: 0.6rem 2rem;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 3rem 3rem;
+}
+
+.js{
+    height: 80px;
+}
+
+.react, .html{
+    height: 90px;
+}
+
+.css {
+    height: 110px;
+}
+
+.git{
+    height: 110px;
+}
+
+.github{
+    height: 90px;
+}
+
+
+.tailwind{
+   height: 120px;
+}
+
+.eng{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-left: 3rem;
+}
+
+.bk-lang{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    
+}
+
+.bk-lang p{
+  color: rgb(246, 246, 246); 
+  font-size: 23px; 
+  text-align: center;
+
+}
+
+.python{
+    height: 110px;
+
+}
+
+.php{
+    height: 115px;
+
+}
+
+.boots{
+    height: 90px;
+
+}
+
+.next{
+    height: 90px;
+}
+
+.figma{
+    height: 110px;
+    padding-top: 1rem;
+}
+
+@media (max-width: 830px){
+    .skills h1{
+       padding-left: 3rem;
+    }
+
+    .tech{
+        padding-left: 0rem;
+        display: flex;
+        
+    }
+
+    .lang{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .skill h2{
+        margin-left: 2rem;
+    }
+
+    .bk-lang{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        text-align: center; 
+        padding-right: 1.7rem;
+    }
+}
+
+

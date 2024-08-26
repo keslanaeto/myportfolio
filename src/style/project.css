@@ -1,0 +1,97 @@
+.projects{
+  height: 100vh;  
+  margin-top: 76px;
+  color: #fff;
+  row-gap: 2px;
+}
+
+.projects h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 50px;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.projects{
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  gap: 2rem;
+}
+
+.project-pic{
+  flex-direction: column;
+  border-radius: 10px;
+  display: flex;
+  background: rgb(57, 39, 52);
+  height: 460px;
+  box-shadow: 0 16px 14px 0 rgb(73, 68, 77);
+  padding: 18px 24px;
+  max-width: 345px;
+}
+
+.project-pic img{
+  margin-bottom: 26px;
+  height: 200px;
+}
+
+.project-pic h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.skilss{
+   width: 100%;
+   margin-top: 17px;
+   gap: 6px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+}
+
+.skilll{
+ font-size: 20px;
+ font-weight: 400;
+ border-radius: 100px;
+ background: rgb(14, 3, 14);
+ padding: 2px 22px;
+
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 22px;
+}
+
+.link{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 100px;
+  text-decoration: none;
+  background: rgb(14, 3, 14);
+  width: 120px;
+  padding: 1px 22px;
+}
+
+
+@media (max-width: 830px) {
+
+  .projects{
+    gap: 3rem;
+  }
+  
+}

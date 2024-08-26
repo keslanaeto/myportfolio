@@ -1,0 +1,149 @@
+
+.abt-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    padding-top: 3rem;
+   
+    
+
+}
+
+.abth{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(235, 233, 233);
+    text-decoration: underline;
+    text-decoration-color: rgb(204, 191, 216);
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+}
+
+
+.about p{
+   font-size: 25px;
+   margin: 2rem 2rem;
+   color: rgb(239, 237, 237);
+   font-family: "Gupter", serif;
+   letter-spacing: 0.8px;
+   font-weight: 400;
+   font-style: normal;
+   padding-bottom: 4.3rem;
+ 
+}
+
+.spec-container{
+    padding: 12px 12px;
+
+} 
+
+.spec{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(249, 249, 249);
+    padding: 9rem 4rem;
+    padding-bottom: 3rem;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.spec h1{
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+
+.what{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    background: rgb(57, 39, 52);
+    flex-direction: column; 
+    padding: 1rem;
+    
+    
+}
+
+.what:hover{
+    transition-duration: -100;
+    background-color: rgb(23, 16, 16);
+}
+
+
+
+ .grid{
+    display: flex;
+    gap: 20rem;
+   justify-content: center;
+   padding-left: 2rem;
+    
+} 
+
+
+.des{
+     flex-direction: column;
+     display: flex;
+     gap: 6;
+     font-family: "Gupter", serif;
+     font-weight: 500;
+     font-style: normal; 
+     padding-right: 1rem;
+   
+    
+} 
+
+
+.des h2{
+    color: #fff;
+    font-size: 33px;
+    text-align: center;
+    padding-left: 1rem;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+
+    
+}
+
+.des p{
+    padding-left: 1rem;
+    padding-left: 1rem;
+}
+
+.what p{
+    color: #fff;
+    padding-top: 1rem;
+}
+
+@media (max-width: 830px) {
+    .abth{
+        font-size: 50px; 
+        padding-top: 3rem;
+    }
+
+    .spec h1{
+        font-size: 50px;
+    }
+
+    .spec{
+        padding-bottom: 6rem;
+    }
+
+
+    .grid{
+          display: flex;
+          flex-direction: column;
+          gap: 3rem;
+
+    }
+
+}

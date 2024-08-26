@@ -1,0 +1,19 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+
+body{
+  height: 100vh;
+  /* margin: 5rem 5rem; */
+  font-family: "Inconsolata", monospace;
+  /* background: rgb(37, 5, 65); */
+  /* background: rgb(125, 125, 212); */
+  background: rgb(14, 3, 14);
+  
+}
+

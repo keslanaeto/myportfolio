@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Javascript",
+      "imageSrc": "assets/javascript.png"
+     
+    },
+
+    {
+         "title": "React Js",
+      "imageSrc": "assets/react.js.png"
+       
+      },
+
+      {
+         "title": "CSS",
+      "imageSrc": "assets/css.png"
+       
+      },
+  
+      {
+         "title": "HTML",
+      "imageSrc": "assets/html logo.png"
+       
+      },
+
+      {
+         "title": "GitHub",
+      "imageSrc": "assets/github.png"
+       
+      },
+
+      {
+         "title": "Tailwind css",
+      "imageSrc": "assets/tailwind css.jpg"
+       
+      }
+]

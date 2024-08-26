@@ -1,0 +1,91 @@
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(57, 39, 52);
+    padding: 0.8rem 0.7rem;
+    top: 0;
+    width: 100%; 
+    position: sticky;
+    z-index: 10;   
+}
+
+.con{
+    padding: 0 1rem;
+     
+}
+
+
+.con nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.con nav .logo{
+   color: #fff;
+   font-size: 40px;
+   font-family: "Dancing Script", cursive;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+}
+
+.con .nav-link {
+    display: flex;
+    cursor: pointer;
+   
+}
+
+.con .nav-link li{
+    list-style: none;
+    margin: 0.0.5rem;
+
+}
+
+.con ul li a{
+    color: #fff;
+    font-size: 20px;
+    padding: 0.7rem 1rem;
+    display: block;
+    border-radius: 4px;
+}
+
+.con ul li a:hover {
+     background-color: rgb(132, 125, 154);
+
+}
+
+
+.iconss{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media (max-width: 830px){
+
+    .iconss{
+        display: block;
+
+    }
+
+    .con .nav-link{
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgb(40, 9, 40);
+        position: absolute;
+        height: 40vh;
+        top: -800px;
+        right: 0;
+        z-index: 10;
+        transition: all 0.7s;
+    }
+
+    .nav-link.active{
+        top: 120%;
+        transition: all 0.7s ease-in;
+    }
+}

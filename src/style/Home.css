@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Oxygen:wght@300;400;700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+.section-one{
+    height: 100vh;
+    margin: 5rem 5rem; 
+}
+
+.first-sec{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.p-img{
+    padding-top: 3rem;
+}
+
+.p-profile{
+    width: 390px;
+    height: 450px;
+    border-radius: 70px;
+   
+}
+
+
+span{
+    
+    font-size: 40px;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.info h2{
+    padding-top: 3rem;
+    color: rgb(244, 244, 240);
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 3rem;
+    letter-spacing: 1.75px;
+
+}
+
+.info p{
+    text-transform: uppercase;
+    color: rgb(215, 215, 210);
+    font-size: 37px;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1.75px;
+  
+}
+
+.media{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-bottom: 50px;
+    gap: 4rem;
+}
+
+
+ 
+.media a{
+    font-size: 50px;
+    margin-top: 3rem;
+    color: rgb(247, 247, 242);
+    padding-bottom: 3rem;
+    border: rgb(57, 39, 52);
+    height: 54px;
+    background: rgb(57, 39, 52);
+    border-radius: 5px;
+    
+} 
+
+.media a:hover{
+    color: rgb(132, 125, 154);
+}
+
+
+.tell{
+   color: rgb(245, 245, 244);
+    font-size: 30px;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    text-decoration: none;
+}
+
+.mail{
+    background-color: rgb(57, 39, 52);
+     
+}
+
+.mail a:hover{
+    color: rgb(133, 128, 137);
+}
+
+
+
+.email{
+    color: rgb(248, 248, 248);
+    font-size: 30px;
+    display: flex;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+    z-index: 2;
+ }
+
+ .resume{
+    position: absolute;
+    background-color: rgb(57, 39, 52);
+    height: 44px;
+    width: 140px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 65px;
+    width: 110px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: .5rem;
+
+ }
+
+ .resume a{
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Platypi", serif;
+
+ }
+
+ .resume a:hover{
+    color: rgb(133, 128, 137);
+ }
+
+ @media (max-width: 830px){
+    .first-sec{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .p-profile{
+        height: 300px;
+        display: flex;
+        width: 270px;
+        border-radius: 50px;
+    }
+
+    .resume{
+        width: 110px;
+        
+
+    }
+
+    .info h2{
+        font-size: 30px;
+        padding-left: 3rem;
+        right: 1rem;
+    }
+
+    span{
+        font-size: 23px;
+    }
+
+    .info p{
+        margin-right: 5rem;
+    }
+
+    .tell{
+       
+        font-size: 29px;
+       
+    }
+
+    .email{
+        margin-bottom: 3rem;
+        font-size: 30px;
+    }
+}
+ 
+
