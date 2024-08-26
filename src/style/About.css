@@ -124,11 +124,11 @@
     padding-top: 1rem;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 650px) {
     .abth{
         font-size: 50px; 
-        padding-top: 3rem;
-        padding-bottom: 6rem;
+        padding-top: 20rem;
+        padding-bottom: 3rem;
     }
 
     .spec h1{
@@ -137,7 +137,7 @@
 
     .spec{
         padding-bottom: 5.5rem;
-        padding-top: 15rem;
+        padding-top: 26rem;
     }
 
 
