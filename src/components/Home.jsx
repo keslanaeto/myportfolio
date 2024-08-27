@@ -44,8 +44,9 @@ const Home = () => {
 
 
  <div className='tel'>
-    <a className='tell' href="tel:"><FiPhoneCall/> +2349017428035</a>  <br />
-   
+    <a className='tell' href="tel:09017428035"><FiPhoneCall/> +2349017428035</a>  <br />
+
+
  </div>
 
 <div className='mail'>
