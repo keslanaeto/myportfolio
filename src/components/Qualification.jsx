@@ -1,7 +1,7 @@
 import React from 'react'
 
 import '../style/Qualification.css'
-import skills from "../data/skills.json"
+// import skills from "../data/skills.json"
 import history from "../data/history.json"
 
 
@@ -12,7 +12,7 @@ export const Qualification = () => {
      <h2>Experience</h2>
 
        <div className='content'>
-        <div className='skills'>
+        {/* <div className='skills'>
           { skills.map((skill, id) => {
                return <div key={id} className='tc-skill'>
                     <p>{skill.title}</p>
@@ -22,13 +22,13 @@ export const Qualification = () => {
                </div>
             })
           }
-           </div>
+           </div> */}
         
              <ul className='snd-container'>
               {
                 history.map((historyItem, id) => {
                   return <li key={id} className='history'>
-                    <img src={historyItem.imageSrc} alt={`${historyItem.company}`} />
+                    {/* <img src={historyItem.imageSrc} alt={`${historyItem.company}`} /> */}
                     <div className='historys'>
                       <h3>{`${historyItem.company}`}</h3>
                       <h4>{`${historyItem.role}`}</h4>
