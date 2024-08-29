@@ -4,9 +4,18 @@
       "role": "Internship",
       "startDate": "July, 2024",
       "endDate": "December 2024",
-      "experience": ["Resolved issues on Cpanel, developed websites with wordpress, maintained and resolves site issues, created user friendly and detailed webiste for public users"],
+      "experience": ["Resolved issues on Cpanel, developed websites with wordpress, maintained and resolved site issues, created user friendly and detailed webiste for public users"],
       "imageSrc": "assets/brandyou.png"
      
+    },
+
+    {
+      "company": "Aptech learning Center, Enugu",
+      "role": "Internship",
+      "startDate": "Febuary ",
+      "endDate": "till date",
+      "experience": ["Learnt and taught HTML, CSS, JS & React js"]
+    
     }
   
   

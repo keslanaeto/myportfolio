@@ -61,7 +61,7 @@ const Home = () => {
  </div>
 
 <div className='resume'>
-    <a href="https://docs.google.com/document/d/1RVXwzeFo5MlpeJCWgXMf_4_0atkP26dGRHYD2g0lb4c/pub">GET C.V</a>
+    <a href="https://docs.google.com/document/d/1FQIquGxmwEWkBdwolTf4y7YOoU-O8M1NIXLuqcNQhHs/pub">GET C.V</a>
 </div>
  
 

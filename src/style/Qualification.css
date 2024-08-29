@@ -60,7 +60,7 @@ h2{
 .snd-container{
    width: 105px;
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    gap: 25px;
    text-align: center;
    justify-content: center;
@@ -69,13 +69,12 @@ h2{
    /* border */
    background: rgb(60, 46, 57);
    width: 600px;
-   height: 500px;
+   height: 600px;
    border-radius: 20px;
 }
 
 .history{
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 23px;
     border-radius: 10px;
