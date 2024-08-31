@@ -1,16 +1,5 @@
 export const projects  = [
 
-
-{
-    title: "Ellatrends",
-    imageSrc: "assets/ella.png",
-    Demo: "https://ellatrends.vercel.app/",
-    Code: "https://github.com/keslanaeto/trends-project",
-    skills: ["HTML", "TailwindCss", "React.JS"],
-   
-},
-
-
 {
     title: "Foodolis",
     imageSrc: "assets/pancake.png",
@@ -21,11 +10,21 @@ export const projects  = [
 }, 
 
 {
-    title: "Spotify Clone",
+    title: "Brown furnitures",
     imageSrc: "assets/coding.jpg",
-    Demo:  "https://groves-eta.vercel.app/",
-    Code: " https://github.com/keslanaeto/groves",
+    Demo:  "https://brown-furnitures.vercel.app/",
+    Code: " https://github.com/keslanaeto/Brown-furnitures",
     skills: ["HTML", " CSS",  "Javasccript"],
+   
+},
+
+
+{
+    title: "Ellatrends",
+    imageSrc: "assets/ella.png",
+    Demo: "https://ellatrends.vercel.app/",
+    Code: "https://github.com/keslanaeto/trends-project",
+    skills: ["HTML", "TailwindCss", "React.JS"],
    
 },
 
