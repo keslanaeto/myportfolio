@@ -11,7 +11,7 @@ export const projects  = [
 
 {
     title: "Brown furnitures",
-    imageSrc: "assets/coding.jpg",
+    imageSrc: "assets/cover.jpg",
     Demo:  "https://brown-furnitures.vercel.app/",
     Code: " https://github.com/keslanaeto/Brown-furnitures",
     skills: ["HTML", " CSS",  "Javasccript"],
