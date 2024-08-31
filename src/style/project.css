@@ -3,6 +3,7 @@
   margin-top: 76px;
   color: #fff;
   row-gap: 2px;
+
 }
 
 .projects h1{
@@ -38,6 +39,7 @@
   box-shadow: 0 16px 14px 0 rgb(73, 68, 77);
   padding: 18px 24px;
   max-width: 345px;
+  
 }
 
 .project-pic img{
@@ -48,6 +50,7 @@
 .project-pic h3{
   font-size: 25px;
   font-weight: 600;
+  
 }
 
 .skilss{
@@ -86,6 +89,15 @@
   width: 120px;
   padding: 1px 22px;
 }
+
+  .link:hover {
+    color: #432f75;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    transform: scale(1.05);
+    letter-spacing: 1px;
+  }
+  
+
 
 
 @media (max-width: 640px) {
