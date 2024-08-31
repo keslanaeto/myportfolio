@@ -22,7 +22,7 @@ const About = () => {
     
 <div className='about'>
 <p>
-    Hello, i am Chime Kesla Naetochukwu. <br />
+    Hello, I am Chime Kesla Naetochukwu. <br />
      <br />
    I am a Detailed oriented frontend developer passionate <br />
    about creating a robust and user-friendly web Application <br /> 
