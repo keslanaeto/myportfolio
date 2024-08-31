@@ -5,8 +5,6 @@
     justify-content: space-between;
     height: 60vh;
     padding-top: 3rem;
-   
-    
 
 }
 
@@ -128,9 +126,10 @@
 @media (max-width: 650px) {
     .abth{
         font-size: 50px; 
-        padding-top: 12rem;
+        padding-top: 26rem;
         padding-bottom: 2rem;
     }
+
 
     .spec h1{
         font-size: 40px;

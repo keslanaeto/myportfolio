@@ -29,6 +29,7 @@ span{
     font-family: "Gupter", serif;
     font-weight: 500;
     font-style: normal;
+    text-transform: uppercase;
 }
 
 .info h2{
@@ -182,10 +183,12 @@ span{
 
     span{
         font-size: 23px;
+        /* text-align: center; */
     }
 
     .info p{
-        margin-right: 5rem;
+    
+        margin-left: 5rem;
     }
 
     .tell{

@@ -25,7 +25,7 @@ const Home = () => {
 
 <div>
 <div className='info'>
-      <h2>Hi, i am {''}
+      <h2>Hi, i am <br />
         
          <span>Kesla Chime</span>
       </h2> 
