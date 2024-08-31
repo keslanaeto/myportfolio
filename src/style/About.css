@@ -126,13 +126,14 @@
 @media (max-width: 650px) {
     .abth{
         font-size: 50px; 
-        padding-top: 26rem;
+        padding-top: 9rem;
         padding-bottom: 2rem;
     }
 
 
     .spec h1{
         font-size: 40px;
+        padding-top: 4rem;
     }
 
     .spec{

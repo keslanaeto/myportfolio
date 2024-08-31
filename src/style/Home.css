@@ -183,12 +183,13 @@ span{
 
     span{
         font-size: 23px;
-        /* text-align: center; */
+        text-align: center;
+       
     }
 
     .info p{
     
-        margin-left: 5rem;
+        margin-left: 2rem;
     }
 
     .tell{
