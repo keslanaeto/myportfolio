@@ -9,7 +9,7 @@ import git from '/assets/git.png'
 import github from '/assets/github.png'
 import python from '/assets/python.png'
 import mysql from '/assets/mysql.png'
-import php from '/assets/php.png'
+import django from '/assets/django.png'
 import flutter from '../../public/assets/flutter.png'
 import nextjs from '/assets/nextjs.png'
 import figma from '../../public/assets/figma.jpg'
@@ -97,8 +97,8 @@ const Skills = () => {
          </div>
 
          <div>
-          <p>PHP</p> <br />
-         <img src={php} alt=""className='php' />
+          <p>Django</p> <br />
+         <img src={django} alt=""className='php' />
          </div>
 
          <div>
