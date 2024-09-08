@@ -98,7 +98,7 @@ const Skills = () => {
 
          <div>
           <p>Django</p> <br />
-         <img src={django} alt=""className='php' />
+         <img src={django} alt=""className='django' />
          </div>
 
          <div>

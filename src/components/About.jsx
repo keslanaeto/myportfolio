@@ -61,7 +61,7 @@ const About = () => {
 
        <Card 
         title='backend development'
-        des= 'Build and maintain the mechanism that processes data and APIs. skilled in Pyhton. MySQL, PHP. '
+        des= 'Build and maintain the mechanism that processes data and APIs. skilled in Pyhton, Django MySQL. '
         
         />
    
