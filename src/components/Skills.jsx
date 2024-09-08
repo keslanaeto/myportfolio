@@ -70,7 +70,7 @@ const Skills = () => {
                </div> 
 
 
-            <p className='eng'>English language (Proficient) </p>
+            <p className='eng'>English Language (Proficient) </p>
             </div>
 
             
