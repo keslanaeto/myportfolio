@@ -25,7 +25,7 @@ const Skills = () => {
         </div>
 
 <div className='tech'>
-      <h3>Technical competence</h3>
+      <h3>Technical Competence</h3>
 </div>
 
 
